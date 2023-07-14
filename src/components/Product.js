@@ -18,7 +18,7 @@ function Product() {
         //     .then((result) => {
         //         getProducts(result);
         //     });
-    }, []);
+    }, [dispatch]);
 
     if(status===StatusCode.LOADING){
         return <p>Loading....</p>
